@@ -5,7 +5,7 @@ export default function Home(): ReactElement {
   const contactEmail = 'mailto:hello@tenderloops.example'
 
   return (
-    <main className="relative overflow-hidden min-h-screen flex flex-col items-center justify-between sm:justify-center px-6 py-10 pt-20 sm:pt-10
+    <main className="relative overflow-hidden min-h-screen flex items-start sm:items-center justify-center px-6 py-10 pt-20 sm:pt-10
                      bg-gradient-to-b from-tender-mint-300/30 via-white to-tender-peach-300/30">
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <img
@@ -51,16 +51,14 @@ export default function Home(): ReactElement {
             </a>
           </div>
 
-          {/* <p className="mt-6 text-xs text-slate-500">
+          <p className="mt-6 text-xs text-slate-500">
             DM on Instagram for custom orders.
-          </p> */}
-        </div>
-      </div>
+          </p>
 
-      <div className="flex flex-col items-center justify-center mt-auto text-center">
-          <footer className="mt-2 text-sm text-slate-400">
+          <footer className="mt-4 text-xs text-slate-400">
             © {new Date().getFullYear()} Tender Loops
           </footer>
+        </div>
       </div>
     </main>
   )
