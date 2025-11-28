@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body {
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+@theme {
+  /* Fonts */
+  --font-display: "Poppins", "ui-sans-serif", "system-ui", "sans-serif";
+  --font-body: "Inter", "ui-sans-serif", "system-ui", "sans-serif";
+
+  /* Pastel color tokens (OKLCH for smooth perceptual interpolation) */
+  --color-tender-pink-200: oklch(0.94 0.05 350);
+  --color-tender-pink-300: oklch(0.90 0.08 350);
+
+  --color-tender-mint-200: oklch(0.96 0.03 150);
+  --color-tender-mint-300: oklch(0.92 0.06 150);
+
+  --color-tender-peach-200: oklch(0.96 0.04 70);
+  --color-tender-peach-300: oklch(0.92 0.07 70);
+
+  --color-tender-berry-200: oklch(0.93 0.06 330);
+
+  /* Accent */
+  --color-accent: oklch(0.83 0.18 355);
+
+  /* Radii */
+  --radius-card: 1.5rem;
+  --radius-pill: 9999px;
+
+  /* Shadows & easing (tokens exposed for usage via CSS var based utilities if needed) */
+  --shadow-soft: 0 8px 24px oklch(0 0 0 / 0.08);
+  --shadow-card: 0 12px 32px oklch(0 0 0 / 0.10);
+
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Layout */
+  --max-width-content: 65rem;
+  --max-width-site: 90rem;
+}
