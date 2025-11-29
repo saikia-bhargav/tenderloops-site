@@ -1,8 +1,8 @@
 import type { ReactElement } from "react";
 
 export default function Home(): ReactElement {
-  const instagramUrl = 'https://instagram.com/tenderloops'
-  const contactEmail = 'mailto:hello@tenderloops.example'
+  const instagramUrl = 'https://www.instagram.com/tender__loops/';
+  const contactEmail = 'mailto:sabitadeka212@gmail.com';
 
   return (
     <main className="relative overflow-hidden min-h-screen flex items-start sm:items-center justify-center px-6 py-10 pt-20 sm:pt-10
@@ -24,7 +24,7 @@ export default function Home(): ReactElement {
             <img src="./graphic_tp.png" alt="Tender Loops Logo" />
           </div>
 
-          <p className="mt-3 text-sm sm:text-lg text-slate-600 max-w-2xl mx-auto">
+          <p className="mt-3 text-base sm:text-lg text-slate-600 max-w-2xl font-medium mx-auto">
             Handcrafted crochet — cozy, cute, and lovingly stitched. Coming soon.
           </p>
 
