@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-  font-family: Poppins, Helvetica, sans-serif;
+  font-family: "Alegreya", Helvetica, sans-serif;
 }
 
 @theme {
